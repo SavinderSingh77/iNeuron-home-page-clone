@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iNeuron Homepage Clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/6239d07aa8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Discount-Alert -->
+    <figure id="discount-alert">
+      <p>
+        End of the year sale is on !!! Get 50% discount on all the courses.
+        <a href="#" class="enroll-now">Enroll Now</a>
+      </p>
+      <i class="fa-solid fa-xmark" id="cross-btn"></i>
+    </figure>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <!-- Navbar-Top-Content -->
+      <div id="navbar-top-content">
+        <img
+          id="ineuron-logo"
+          src="./assets/ineuron-logo.png"
+          alt="ineuron-logo.png"
+        />
+        <div id="search-bar">
+          <img src="./assets/search-icon.svg" alt="serach-icon-png" />
+          <input type="text" placeholder="What do you want to learn?" />
+        </div>
+        <div>
+          <button class="btn" id="sign-up-btn">Sign up</button>
+          <button class="btn" id="sign-in-btn">Sign in</button>
+        </div>
+      </div>
+      <!-- Navbar-Botton-Content -->
+      <div id="navbar-bottom-content">
+        <ul class="nav-list">
+          <li>Courses</li>
+          <li>One Neuron</li>
+          <li>Neuro Lab</li>
+          <li>Job Portal</li>
+          <li>Internship Portal</li>
+          <li>Become an affiliate</li>
+          <li>Hall of fame</li>
+          <li>Company</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--  Achievements Carouser -->
+    <section id = "section-achievement-carousel">
+      <div id="achievements-carouser">
+        <div class="image-container">
+          <img class="achievement-images" src="./assets/web.jpg" alt="" />
+        </div>
+        <div class="image-container">
+          <img class="achievement-images" src="./assets/web (1).jpg" alt="" />
+        </div>
+        <div class="image-container">
+          <img class="achievement-images" src="./assets/web (2).jpg" alt="" />
+        </div>
+        <div class="image-container">
+          <img class="achievement-images" src="./assets/web.jpg" alt="" />
+        </div>
+      </div>
+      <div id = "circular-btn-container">
+        <button class = "circular-btn"></button>
+        <button class = "circular-btn"></button>
+        <button class = "circular-btn"></button>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section id = "stats-section">
+     <h1> “Pure Hardwork, No Shortcuts!”</h1>
+    <div class="line"></div>
+     <div class="stats"> 
+        <div class = "stats-image-container"><img  class= "stats-img" src="./assets/books-icon.svg" alt="">
+        <span class = "stats-numbers">600+</span>
+        <span class = "stats-text">Different Courses</span>
+        </div>
+        <div class = "stats-image-container"><img  class= "stats-img" src="./assets/student-iocn.svg" alt="">
+        <span class = "stats-numbers">500000+</span>
+        <span class = "stats-text">Students Enrolled</span>
+        </div>
+        <div class = "stats-image-container">
+          <img class= "stats-img"  src="./assets/credit-card-icon.svg" alt="">
+        <span class = "stats-numbers">10000+</span>
+        <span class = "stats-text">Successful Transition</span>
+        </div>
+     </div>
+
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
